@@ -194,3 +194,20 @@ https://lnkd.in/dVAgSnXj
 #SoftwareTesting #Github #Testing #QA #TestAutomation #Learning
 
 https://academy.vivasoftltd.com/what-is-hoisting-in-javascript/
+
+ফাংশনের বাহিরে যা কিছু আছে সব কিছুই গ্লোবাল
+সর্বপ্রথম যখন জাভা স্ক্রিপ রান করে তখন গ্লোবালিকেশন কনটেক্সট তৈরি হয় তখন দুটি স্পেশাল জিনিস ঘটে সাবস্ক্রিপ্ট প্রথমে রান হলে দুইটা স্পেশাল জিনিস দেয় একটা হচ্ছে global object (window object for browser) উইন্ডো আরেকটা হচ্ছে দিস এর ক্ষেত্রে এটা গ্লোবাল
+
+this === window (pointing to the same reference)
+
+creation phase (variable create , function create
+reference to a memory , memory allocate)
+name undefined , function place directly to a memory location
+
+execution phase
+assign the value to variable, execute the function
+
+- var function scoped if define on function scope can't access outside of it
+- left const block scope if define on block scope can't access outside of it
+
+- if we declare var in block scope we can access outside also that's a problem but same let const can't
