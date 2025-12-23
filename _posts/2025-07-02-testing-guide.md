@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React অ্যাপ্লিকেশন টেস্ট করার সেরা পদ্ধতি: একটি প্রাথমিক গাইড
+title: React অ্যাপ্লিকেশন টেস্ট করার সেরা পদ্ধতি
 subtitle: সহজ ভাষায় জানুন
 tags: [javascript, react, testing]
 permalink: /react-testing-guide/
